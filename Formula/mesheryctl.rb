@@ -5,7 +5,7 @@ class Mesheryctl < Formula
 
   if OS.mac?
     url "https://github.com/layer5io/meshery/releases/download/v#{version}/mesheryctl_#{version}_Darwin_x86_64.zip"
-    #sha256 "123456"
+    sha256 "016119626c9aca6f4c383fd8c3317f209fb8eea4fbf24e36125b73f8373068f4"
   elsif OS.linux?
     url "https://github.com/layer5io/meshery/releases/download/v#{version}/mesheryctl_#{version}_Linux_x86_64.zip"
     #sha256 "123456"
