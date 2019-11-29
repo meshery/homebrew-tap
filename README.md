@@ -1,5 +1,5 @@
 # layer5io/homebrew-tap
-Homebrew Tap for for installing Meshery command line client.
+Homebrew Tap for for installing the Meshery command line client: `mesheryctl`
 
 ## Usage
 
