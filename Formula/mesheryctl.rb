@@ -2,16 +2,16 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.3.4"
+  version "0.3.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/layer5io/meshery/releases/download/v0.3.4/mesheryctl_0.3.4_Darwin_x86_64.zip"
-    sha256 "b8cb5d4d00f9bfb261f9920937e70bfa4ac56a84c98e4b6809ef7d50421937ad"
+    url "https://github.com/layer5io/meshery/releases/download/v0.3.5/mesheryctl_0.3.5_Darwin_x86_64.zip"
+    sha256 "096823e44482e0248422c2f4e8ab5c0891f42163d4936c1ac2f3615fcccbc3f9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/layer5io/meshery/releases/download/v0.3.4/mesheryctl_0.3.4_Linux_x86_64.zip"
-      sha256 "7c144fa9b538508ed4a49344fb4a4d773856ad5776a2028d4c3779d3e2e00350"
+      url "https://github.com/layer5io/meshery/releases/download/v0.3.5/mesheryctl_0.3.5_Linux_x86_64.zip"
+      sha256 "2424b904de7f9bf42e22a1f188fbb928072a297c3391d4a869876f5889ddd80b"
     end
   end
 
