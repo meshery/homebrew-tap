@@ -7,11 +7,11 @@ class Mesheryctl < Formula
 
   if OS.mac?
     url "https://github.com/layer5io/meshery/releases/download/v0.3.12/mesheryctl_0.3.12_Darwin_x86_64.zip"
-    sha256 "51c1e225c9cb36056d3d1b31809302e4049ee9acfe7054a2b916f18ad8b42375"
+    sha256 "15e1f5cf2072651d34615a8ab683202d1445942d5e88d2bb306bdb504a763662"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/layer5io/meshery/releases/download/v0.3.12/mesheryctl_0.3.12_Linux_x86_64.zip"
-      sha256 "f863887fb9158f448e3c80ebd2409e1fb585cff07e74d13e993dc7a9feb7f931"
+      sha256 "fd4c46e836ef8a1ed39ee5639961b4d71a6f568828f0a3bc68c1d4554d3fa8ae"
     end
   end
 
