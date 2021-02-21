@@ -5,24 +5,24 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.0-beta-3"
+  version "0.5.0-beta-4"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Darwin_x86_64.zip"
-    sha256 "ada20dfd07b8ada4cc075a0c44fae8ac956c82be6dc303d601f421c813ccb516"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-4/mesheryctl_0.5.0-beta-4_Darwin_x86_64.zip"
+    sha256 "09b47ecff86da0df90093bf61d7ffce19cb29378539405f80336236bc18989a9"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_x86_64.zip"
-    sha256 "08cd75a40a9afff2ced6ecf259be7c89d990a934fe6fc670c2f21aac03a52106"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-4/mesheryctl_0.5.0-beta-4_Linux_x86_64.zip"
+    sha256 "04e243af8e8af29e45eb8373e5e22991fc362c74e4817b3f918157ff67093c00"
   end
   if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_armv6.zip"
-    sha256 "c306645c97d945aa4888e58682bae1de3f43dcda6be26056995b50b3a7c4d68b"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-4/mesheryctl_0.5.0-beta-4_Linux_armv6.zip"
+    sha256 "73dd054cdfc549e335d9afeaa01ddff9e9cfb2e86d43bfb69378ccdbb8819976"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_arm64.zip"
-    sha256 "b089f873d7e87d45c8c9748942ea91aadd8b4d3d0f478c1c7565efd0ef68ad0d"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-4/mesheryctl_0.5.0-beta-4_Linux_arm64.zip"
+    sha256 "774005bc6f7d818395ee5db9f4f1216695e32252f54266ca4168d3c9d1258f58"
   end
 
   def install
