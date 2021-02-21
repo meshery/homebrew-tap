@@ -5,24 +5,24 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.0-beta-2"
+  version "0.5.0-beta-3"
   bottle :unneeded
 
-  if OS.mac?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-2/mesheryctl_0.5.0-beta-2_Darwin_x86_64.zip"
-    sha256 "5cd3573e4806b6b3bb0df9a9c9ac4ff3de80d7693f120fe0ae343130f46b296d"
+  if OS.mac? && Hardware::CPU.intel?
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Darwin_x86_64.zip"
+    sha256 "ada20dfd07b8ada4cc075a0c44fae8ac956c82be6dc303d601f421c813ccb516"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-2/mesheryctl_0.5.0-beta-2_Linux_x86_64.zip"
-    sha256 "0b843773b1576d4e8bba185bc54186da45d80cf5d473751a14c228f614e12b80"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_x86_64.zip"
+    sha256 "08cd75a40a9afff2ced6ecf259be7c89d990a934fe6fc670c2f21aac03a52106"
   end
   if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-2/mesheryctl_0.5.0-beta-2_Linux_armv6.zip"
-    sha256 "16ab556e05d92f1197663b8bed970553dfdcf16c1fc4033b5c7b07fb7eb321fe"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_armv6.zip"
+    sha256 "c306645c97d945aa4888e58682bae1de3f43dcda6be26056995b50b3a7c4d68b"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-2/mesheryctl_0.5.0-beta-2_Linux_arm64.zip"
-    sha256 "a08291eabec8c8135576dad40ef1b1d209c7737216797169981f96c153bbbb99"
+    url "https://github.com/layer5io/meshery/releases/download/v0.5.0-beta-3/mesheryctl_0.5.0-beta-3_Linux_arm64.zip"
+    sha256 "b089f873d7e87d45c8c9748942ea91aadd8b4d3d0f478c1c7565efd0ef68ad0d"
   end
 
   def install
