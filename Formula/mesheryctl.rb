@@ -5,24 +5,29 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.17"
+  version "0.5.18"
   bottle :unneeded
 
-  if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.17/mesheryctl_0.5.17_Darwin_x86_64.zip"
-    sha256 "5afb9c563c3bf487542b53aa8423039861d89b8ddeb1aa03645508489e5c468b"
+  on_macos do
+    if Hardware::CPU.intel?
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.18/mesheryctl_0.5.18_Darwin_x86_64.zip"
+      sha256 "708b442e4fea2d56c227124e4b234fc461a5e0b6700f7e5aee88201a10e0c28f"
+    end
   end
-  if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.17/mesheryctl_0.5.17_Linux_x86_64.zip"
-    sha256 "91e52fb79b6de56a0511c0d54010bf459c9a83d3cebfb39d43605d5934402552"
-  end
-  if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.17/mesheryctl_0.5.17_Linux_armv6.zip"
-    sha256 "27899406e04410cc78d2e310460eef8370ef155393d6287f150f57d2ebe25648"
-  end
-  if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/layer5io/meshery/releases/download/v0.5.17/mesheryctl_0.5.17_Linux_arm64.zip"
-    sha256 "6a36f094a738d263416caf7baab09647fb84b7962c15d410d4f3a22d0deec30f"
+
+  on_linux do
+    if Hardware::CPU.intel?
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.18/mesheryctl_0.5.18_Linux_x86_64.zip"
+      sha256 "412128a3e53aece70b0c8601730975b43405fdc081738913f4716dd801450528"
+    end
+    if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.18/mesheryctl_0.5.18_Linux_armv6.zip"
+      sha256 "e75e99e45a0329acdfe1f6607706a1afbbf26d386f413630c91c1b8ec39cd8fd"
+    end
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.18/mesheryctl_0.5.18_Linux_arm64.zip"
+      sha256 "d8be50aa93efbe50bf89f660f50bfad300c43244d44bb6414b91f75cdff5a8e4"
+    end
   end
 
   def install
