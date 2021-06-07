@@ -5,28 +5,28 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.19"
+  version "0.5.20"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/layer5io/meshery/releases/download/v0.5.19/mesheryctl_0.5.19_Darwin_x86_64.zip"
-      sha256 "431ffecb47b5aa6f87e04b04a0ed8535557baf3573b000debc800447aa7c270a"
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.20/mesheryctl_0.5.20_Darwin_x86_64.zip"
+      sha256 "78be182e971a187fed9a297fea29ffd33e44818a6d6761d87000537d8ff27873"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/layer5io/meshery/releases/download/v0.5.19/mesheryctl_0.5.19_Linux_x86_64.zip"
-      sha256 "8cd830773772aa157d1b6625527f78b7591abd2a5339fec13782460f1b5d1639"
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.20/mesheryctl_0.5.20_Linux_x86_64.zip"
+      sha256 "e2c9ed8484ef279d39a2feb3e3c0175ae95d9d269f22ffaed86541c97ef33ac9"
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/layer5io/meshery/releases/download/v0.5.19/mesheryctl_0.5.19_Linux_armv6.zip"
-      sha256 "582dcd2fb06bea98bace0d7f17fc7c719b9c71d49c0660a76d2b1a1cfec141b6"
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.20/mesheryctl_0.5.20_Linux_armv6.zip"
+      sha256 "b9efc0b4e735f4553defa2e3a4ccc07072d3620292dc0d2ca98ffe5285dee4d7"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/layer5io/meshery/releases/download/v0.5.19/mesheryctl_0.5.19_Linux_arm64.zip"
-      sha256 "1a6b2df699799f9ef1b5cf61886c2bbd07ae6d484a714eac7287314bd7f455c5"
+      url "https://github.com/layer5io/meshery/releases/download/v0.5.20/mesheryctl_0.5.20_Linux_arm64.zip"
+      sha256 "f6143d58876d279010cb3e8c55eca744c962df3826d5aa4ef1856bc4d6e858b6"
     end
   end
 
