@@ -5,28 +5,28 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.30"
+  version "0.5.31"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.30/mesheryctl_0.5.30_Darwin_x86_64.zip"
-      sha256 "3cad3447f9f607cac1a04a9072e63f14dfd3a3d372aaf2ba51379bfa3211156a"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.31/mesheryctl_0.5.31_Darwin_x86_64.zip"
+      sha256 "def873c5e14d8d0eac0674225ae7d4c99dfd7fc3ebca6c02b5d4567d9fc9738e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.30/mesheryctl_0.5.30_Linux_x86_64.zip"
-      sha256 "9cfe60d878821043f1e8e04b43ece2d4fdc52b1dcadc380b59aa33fcb353b383"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.31/mesheryctl_0.5.31_Linux_x86_64.zip"
+      sha256 "711cf52b6d181c03f7491ce6aba28242b8a17f959abacf35082a6451d819b2af"
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.30/mesheryctl_0.5.30_Linux_armv6.zip"
-      sha256 "0dbcf8dffb46fa1d870bafc66090dce7410fc187bec5fbf3b71b40b2ccd59c03"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.31/mesheryctl_0.5.31_Linux_armv6.zip"
+      sha256 "fac1d177d2beb99bb5a92778a4c23bed97e029f23e4313441e7bc729b2875ffe"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.30/mesheryctl_0.5.30_Linux_arm64.zip"
-      sha256 "ebe5aaca3f4c588cb676286e1c28972024231f406c9d799d9a1506dd5bd7fa42"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.31/mesheryctl_0.5.31_Linux_arm64.zip"
+      sha256 "9969993c89b0bc9828c52038f13ea167334e657e0c4e7816578f8bad8303f272"
     end
   end
 
