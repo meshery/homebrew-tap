@@ -5,32 +5,32 @@
 class Mesheryctl < Formula
   desc "The Multi-Service Mesh Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.5.42"
+  version "0.5.43"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.42/mesheryctl_0.5.42_Darwin_x86_64.zip"
-      sha256 "e3d1d0f74a3d39b3ee5bee66f37e413cb122d1c0d56497686d3d9b5ae8a5a3fc"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.43/mesheryctl_0.5.43_Darwin_x86_64.zip"
+      sha256 "0f86b42c7e546c9851289d9d51a78913c96e60af43e732b66d5d0a77a1e80cd7"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.42/mesheryctl_0.5.42_Darwin_arm64.zip"
-      sha256 "e3cefb137b6e74c496d40d979a0aeaad7ed56a45868d4d4f292207916a5d4a79"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.43/mesheryctl_0.5.43_Darwin_arm64.zip"
+      sha256 "32b4ad6c5f8f4f7fc4d74074c24a7dd21a45bab1ae93c8cde52fb383196a945a"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.42/mesheryctl_0.5.42_Linux_x86_64.zip"
-      sha256 "4e64d9b980f245eddaaae4f1c5d37c6faa7fa767c271705e87b55fe61d7de612"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.43/mesheryctl_0.5.43_Linux_x86_64.zip"
+      sha256 "e85727061996d2c878fc55b0ca0fa839f864bf631c6813ada142436d92974b85"
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.42/mesheryctl_0.5.42_Linux_armv6.zip"
-      sha256 "6a8bc3fe78889ab208d193bb59649f223fa6e579b54dca0630f74eae40fcf57b"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.43/mesheryctl_0.5.43_Linux_armv6.zip"
+      sha256 "acb85b915e926e693a637339d18885971b13e60645d65ae9f7bba29792c4ac8c"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.5.42/mesheryctl_0.5.42_Linux_arm64.zip"
-      sha256 "1534a3f5c644a7aa0f749b938354af8deec46fdbb3d2ce9a84474be904aac9e1"
+      url "https://github.com/meshery/meshery/releases/download/v0.5.43/mesheryctl_0.5.43_Linux_arm64.zip"
+      sha256 "4c08c1f065685c2163352be905a8f0af8bd748b46aa973d683c18f6b63051da6"
     end
   end
 
