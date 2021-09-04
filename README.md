@@ -46,4 +46,4 @@ Removing: /Users/lee/Library/Caches/Homebrew/mesheryctl--0.3.2.zip... (3.9MB)
 ==> No dependents found!
 ```
 
-See [Meshery documentation](https://meshery.layer5.io/docs/installation) for additional usage.
+See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for additional usage.
