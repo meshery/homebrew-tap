@@ -14,7 +14,7 @@ To install `mesheryctl` using homebrew, execute the following commands.
 ### Installation Commands
 To install `mesheryctl`, execute the following commands.
 ```
-brew tap layer5io/tap
+brew tap meshery/tap
 brew install mesheryctl
 ```
 You need to have brew installed on your Mac or Linux system to perform these actions.
