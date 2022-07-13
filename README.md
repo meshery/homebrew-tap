@@ -4,9 +4,19 @@
   <img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/meshery/meshery-logo-tag-light-text-side.png" width="70%" align="center" style="margin-bottom:20px;">
 </picture></a><br /><br /></p>
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/layer5/meshery.svg)](https://hub.docker.com/r/layer5/meshery)
+[![Go Report Card](https://goreportcard.com/badge/github.com/layer5io/meshery)](https://goreportcard.com/report/github.com/layer5io/meshery)
+[![Build Status](https://github.com/layer5io/meshery/workflows/Meshery/badge.svg)](https://github.com/layer5io/meshery/actions)
+[![GitHub](https://img.shields.io/github/license/layer5io/meshery.svg)](LICENSE)
+[![GitHub issues by-label](https://img.shields.io/github/issues/layer5io/meshery/help%20wanted.svg)](https://github.com/layer5io/meshery/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
+[![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://layer5.io/meshery/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/layer5.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
+[![Slack](https://img.shields.io/badge/Slack-@layer5.svg?logo=slack)](http://slack.layer5.io)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3564/badge)](https://bestpractices.coreinfrastructure.org/projects/3564)
+
 <div>&nbsp;</div>
 
-# Homebrew-tap
+# Meshery/homebrew-tap
 To install `mesheryctl` using homebrew, execute the following commands.
 
 ## Usage
@@ -31,7 +41,7 @@ $ MESHERY_SERVER_CALLBACK_URL=https://custom-host mesheryctl system start
 `mesheryctl` uses your current Kubernetes context, your `KUBECONFIG` environment variable (~/.kube/config by default). Confirm if this Kubernetes cluster you want Meshery to interact with by running the following command: `kubectl config get-contexts`
 </br>
 
-If there are multiple contexts in your kubeconfig file, specify the one you want to use with the use-context subcommand:</br> `kubectl config use-context <context-to-use>`.
+If there are multiple contexts in your kubeconfig file, specify the one you want to use with the use-context subcommand: `kubectl config use-context <context-to-use>`.
 ### Upgrading
 To upgrade `mesheryctl`, execute the following command.
 ```
@@ -55,7 +65,7 @@ Removing: /Users/lee/Library/Caches/Homebrew/mesheryctl--0.3.2.zip... (3.9MB)
 ```
 
 See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for additional usage.
-<br /><br /><br /><br />
+<br />
 
 # Join the service mesh community!
 
