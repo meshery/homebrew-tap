@@ -14,7 +14,7 @@
 <div>&nbsp;</div>
 
 # meshery/homebrew-tap
-To install `mesheryctl` using homebrew, execute the following commands.
+Homebrew Tap for installing the Meshery command line client: `mesheryctl`
 
 ## Usage
 
