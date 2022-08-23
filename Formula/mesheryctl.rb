@@ -5,20 +5,20 @@
 class Mesheryctl < Formula
   desc "The Cloud Native Management Plane."
   homepage "https://layer5.io/meshery"
-  version "0.6.0-rc.6fd"
+  version "0.6.0-rc.6fe"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fd/mesheryctl_0.6.0-rc.6fd_Darwin_x86_64.tar.gz"
-      sha256 "3f0e1690fb378b17f0564097f8725522a0a503ac73f36ec25e157dbd2f334b32"
+      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fe/mesheryctl_0.6.0-rc.6fe_Darwin_x86_64.tar.gz"
+      sha256 "9b1d34649ca260dec0d813904dacc6a3b29898f25d6beaead01292c4a18b4b14"
 
       def install
         bin.install "mesheryctl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fd/mesheryctl_0.6.0-rc.6fd_Darwin_arm64.tar.gz"
-      sha256 "a17344c79083c887859246bcfb49f5406a365fc8057cd07418df4f6ef120bfe1"
+      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fe/mesheryctl_0.6.0-rc.6fe_Darwin_arm64.tar.gz"
+      sha256 "7849c46b6d5be48112c64b04b5287bb22e474eda928d2f63ed685a338a26ed44"
 
       def install
         bin.install "mesheryctl"
@@ -28,24 +28,24 @@ class Mesheryctl < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fd/mesheryctl_0.6.0-rc.6fd_Linux_arm64.tar.gz"
-      sha256 "eb040c929e67cde9d9a2a864af2becf6dcf851bfd34f492bcb5190cc4c293b57"
+      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fe/mesheryctl_0.6.0-rc.6fe_Linux_arm64.tar.gz"
+      sha256 "7da9e72d8a720c4f9169ed1aa8079d466b8310e2d1b7798f84f6de7fbde041ec"
 
       def install
         bin.install "mesheryctl"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fd/mesheryctl_0.6.0-rc.6fd_Linux_armv6.tar.gz"
-      sha256 "ba748281366981da90418506075b8da2d70bffa7972ec854adcbe3249a5588b1"
+      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fe/mesheryctl_0.6.0-rc.6fe_Linux_armv6.tar.gz"
+      sha256 "102c619d539bded440deb53f31a4c0d64ab17103d71d8e894a47c6d2aad337fb"
 
       def install
         bin.install "mesheryctl"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fd/mesheryctl_0.6.0-rc.6fd_Linux_x86_64.tar.gz"
-      sha256 "f7aba8c7d4061558841ded4b7b1cbfe15e60f18bad6f7cd56a49949f76e1b294"
+      url "https://github.com/meshery/meshery/releases/download/v0.6.0-rc.6fe/mesheryctl_0.6.0-rc.6fe_Linux_x86_64.tar.gz"
+      sha256 "a1e847d4a8b7889d1883d2c1c6e34023632daa922a672d319cda69cf1b3dd235"
 
       def install
         bin.install "mesheryctl"
