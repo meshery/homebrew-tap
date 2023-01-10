@@ -15,7 +15,7 @@
 
 ## NOTE
 
-This tap is not used for publishing any packages. mesheryctl is now published in the official homebrew-core tap and can be directly installed with:
+This tap is not used for releasing new versions of `mesheryctl` anymore. Latest releases of `mesheryctl` are now published in the official homebrew-core tap. It can now be directly installed with:
 
 ```
 brew install mesheryctl
