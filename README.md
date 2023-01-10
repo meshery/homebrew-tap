@@ -13,39 +13,59 @@
 
 <div>&nbsp;</div>
 
+## NOTE
+
+This tap is not used for publishing any packages. mesheryctl is now published in the official homebrew-core tap and can be directly installed with:
+
+```
+brew install mesheryctl
+```
+
 # meshery/homebrew-tap
+
 Homebrew Tap for installing the Meshery command line client: `mesheryctl`
 
 ## Usage
 
 ### Installation Commands
+
 To install `mesheryctl`, execute the following commands.
+
 ```
 brew tap meshery/tap
 brew install mesheryctl
 ```
+
 You need to have brew installed on your Mac or Linux system to perform these actions.
 </br>
 
 You’re ready to run Meshery. To do so, execute the following command.
+
 ```
 $ mesheryctl system start
 ```
+
 Meshery server supports customizing authentication flow callback URL, which can be configured in the following way
+
 ```
 $ MESHERY_SERVER_CALLBACK_URL=https://custom-host mesheryctl system start
 ```
+
 `mesheryctl` uses your current Kubernetes context, your `KUBECONFIG` environment variable (~/.kube/config by default). Confirm if this Kubernetes cluster you want Meshery to interact with by running the following command: `kubectl config get-contexts`
 </br>
 
 If there are multiple contexts in your kubeconfig file, specify the one you want to use with the use-context subcommand: `kubectl config use-context <context-to-use>`.
+
 ### Upgrading
+
 To upgrade `mesheryctl`, execute the following command.
+
 ```
 brew upgrade mesheryctl
 ```
 
 Example output of a successful upgrade:
+
 ```
 ➜  ~ brew upgrade mesheryctl
 ==> Upgrading 1 outdated package:
@@ -69,7 +89,6 @@ See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for
 <a name="contributing"></a><a name="community"></a>
 Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://docs.google.com/document/d/17OPtDE_rdnPQxmk2Kauhm3GwXF1R5dZ3Cj8qZLKdo5E/edit">Layer5 Community Welcome Guide</a> for a tour of resources available to you and jump into our <a href="http://slack.layer5.io">Slack</a>!
 
-
 <p style="clear:both;">
 <a href ="https://layer5.io/community/meshmates"><img alt="MeshMates" src="https://github.com/meshery/meshkit/blob/master/.github/readme/images/Layer5-MeshMentors.png?raw=true" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
 <h3>Find your MeshMate</h3>
@@ -79,6 +98,7 @@ Become a <b>Meshtee</b> today!</p>
 
 Find out more on the <a href="https://layer5.io/community">Layer5 community</a>. <br />
 <br /><br /><br /><br />
+
 </p>
 
 <div>&nbsp;</div>
