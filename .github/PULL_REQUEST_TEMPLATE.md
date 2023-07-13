@@ -10,7 +10,7 @@ This PR fixes #
  
 
 <!--
-Thank you for contributing to Layer5 projects! 
+Thank you for contributing to Meshery! 
 
 Contributing Conventions:
 
@@ -18,6 +18,5 @@ Contributing Conventions:
 2. Build and test your changes before submitting a PR. 
 3. Sign your commits
 
-By following the community's contribution conventions upfront, the review process will 
-be accelerated and your PR merged more quickly.
+By following the community's contribution conventions upfront, the review process will be accelerated and your PR merged more quickly.
 -->
