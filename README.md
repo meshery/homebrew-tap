@@ -6,9 +6,9 @@
 
 [![GitHub](https://img.shields.io/github/license/meshery/meshery.svg)](LICENSE)
 [![GitHub issues by-label](https://img.shields.io/github/issues/meshery/homebrew-tap/help%20wanted.svg)](https://github.com/meshery/homebrew-tap/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
-[![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://meshery.io/)
+[![Website](https://img.shields.io/website/https/meshery.io/meshery.svg)](https://meshery.io/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/mesheryio.svg?label=Follow+Meshery&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
-[![Slack](https://img.shields.io/badge/Slack-@layer5.svg?logo=slack)](http://slack.meshery.io)
+[![Slack](https://img.shields.io/badge/Slack-@meshery.svg?logo=slack)](http://slack.meshery.io)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3564/badge)](https://bestpractices.coreinfrastructure.org/projects/3564)
 
 <div>&nbsp;</div>
@@ -64,23 +64,6 @@ To upgrade `mesheryctl`, execute the following command.
 brew upgrade mesheryctl
 ```
 
-Example output of a successful upgrade:
-
-```
-➜  ~ brew upgrade mesheryctl
-==> Upgrading 1 outdated package:
-layer5io/tap/mesheryctl 0.3.2 -> 0.3.4
-==> Upgrading layer5io/tap/mesheryctl
-==> Downloading https://github.com/layer5io/meshery/releases/download/v0.3.4/mesheryctl_0.3.4_Darwin_x86_64.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/157554479/17522b00-2af0-11ea-8aef-cbfe8
-######################################################################## 100.0%
-🍺  /usr/local/Cellar/mesheryctl/0.3.4: 5 files, 10.2MB, built in 4 seconds
-Removing: /usr/local/Cellar/mesheryctl/0.3.2... (5 files, 10.2MB)
-Removing: /Users/lee/Library/Caches/Homebrew/mesheryctl--0.3.2.zip... (3.9MB)
-==> Checking for dependents of upgraded formulae...
-==> No dependents found!
-```
-
 See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for additional usage.
 <br />
 
@@ -90,10 +73,10 @@ See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for
 Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://docs.meshery.io/project/community#getting-involved-in-the-community">Meshery Community Welcome Guide</a> for a tour of resources available to you and jump into our <a href="http://slack.meshery.io">Slack</a>!
 
 <p style="clear:both;">
-<a href ="https://layer5.io/community/meshmates"><img alt="MeshMates" src="https://github.com/meshery/meshkit/blob/master/.github/readme/images/Layer5-MeshMentors.png?raw=true" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
+<a href ="https://meshery.io/community/meshmates"><img alt="MeshMates" src="https://raw.githubusercontent.com/meshery/meshery/refs/heads/master/.github/assets/images/readme/community.svg" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
 <h3>Find your MeshMate</h3>
 
-<p>MeshMates are experienced Layer5 community members, who will help you learn your way around, discover live projects and expand your community network. 
+<p>MeshMates are experienced Meshery community members, who will help you learn your way around, discover live projects and expand your community network. 
 Become a <b>Meshtee</b> today!</p>
 
 Find out more on the <a href="https://meshery.io/community">Meshery community</a>. <br />
@@ -103,16 +86,16 @@ Find out more on the <a href="https://meshery.io/community">Meshery community</a
 
 <div>&nbsp;</div>
 
-<a href="https://meshery.io/community"><img alt="Meshery Cloud Native Community"  src="https://github.com/meshery/meshkit/blob/master/.github/readme/images//slack-128.png" style="margin-left:10px;padding-top:5px;" width="110px" align="right" /></a>
+<a href="https://meshery.io/community"><img alt="Meshery Community"  src="https://github.com/meshery/meshkit/blob/master/.github/readme/images//slack-128.png" style="margin-left:10px;padding-top:5px;" width="110px" align="right" /></a>
 
 <a href="http://slack.meshery.io"><img alt="Meshery Cloud Native Community" src="https://github.com/meshery/meshkit/blob/master/.github/readme/images//community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
 
 <p>
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://meshery.io/calendar">community calendar</a>.<br />
 ✔️ <em><strong>Watch</strong></em> community <a href="https://www.youtube.com/@mesheryio?sub_confirmation=1">meeting recordings</a>.<br />
-✔️ <em><strong>Access</strong></em> community resources by completing a community <a href="https://layer5.io/newcomer">Member Form</a>.<br />
-✔️ <em><strong>Discuss</strong></em> in the <a href="http://discuss.meshery.io">Community Forum</a>.<br />
+✔️ <em><strong>Access</strong></em> community resources by completing a community <a href="https://meshery.io/newcomers">Member Form</a>.<br />
+✔️ <em><strong>Discuss</strong></em> in a Meshery <a href="https://meshery.io/community#discussion-forums">Forum</a>.<br />
 </p>
 <p align="center">
-<i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Aservice-mesh-patterns+label%3A%22help+wanted%22+">help-wanted label</a>.
+<i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Ameshery-extensions+org%3Ameshery+org%3Aservice-mesh-performance+org%3Aservice-mesh-patterns+label%3A%22help+wanted%22+">help-wanted label</a>.
 </p>
