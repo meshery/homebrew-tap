@@ -73,7 +73,6 @@ See [Meshery documentation](https://docs.meshery.io/installation/mesheryctl) for
 Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://docs.meshery.io/project/community#getting-involved-in-the-community">Meshery Community Welcome Guide</a> for a tour of resources available to you and jump into our <a href="http://slack.meshery.io">Slack</a>!
 
 <p style="clear:both;">
-<a href ="https://meshery.io/community/meshmates"><img alt="MeshMates" src="https://raw.githubusercontent.com/meshery/meshery/refs/heads/master/.github/assets/images/readme/community.svg" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
 <h3>Find your MeshMate</h3>
 
 <p>MeshMates are experienced Meshery community members, who will help you learn your way around, discover live projects and expand your community network. 
@@ -86,9 +85,9 @@ Find out more on the <a href="https://meshery.io/community">Meshery community</a
 
 <div>&nbsp;</div>
 
-<a href="https://meshery.io/community"><img alt="Meshery Community"  src="https://github.com/meshery/meshkit/blob/master/.github/readme/images//slack-128.png" style="margin-left:10px;padding-top:5px;" width="110px" align="right" /></a>
+<a href="https://meshery.io/community"><img alt="Meshery Community"  src="https://github.com/meshery/meshkit/blob/master/.github/readme/images/slack-128.png" style="margin-left:10px;padding-top:5px;" width="110px" align="right" /></a>
 
-<a href="http://slack.meshery.io"><img alt="Meshery Cloud Native Community" src="https://github.com/meshery/meshkit/blob/master/.github/readme/images//community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
+<a href="http://slack.meshery.io"><img alt="Meshery Community" src="https://github.com/meshery/meshkit/blob/master/.github/readme/images/community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
 
 <p>
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://meshery.io/calendar">community calendar</a>.<br />
