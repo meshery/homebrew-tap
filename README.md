@@ -5,7 +5,7 @@
 </picture></a><br /><br /></p>
 
 [![GitHub](https://img.shields.io/github/license/meshery/meshery.svg)](LICENSE)
-[![GitHub issues by-label](https://img.shields.io/github/issues/meshery/homebrew-tap/help%20wanted.svg)](https://github.com/meshery/homebrew-tap/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
+[![GitHub issues by-label](https://img.shields.io/github/issues/meshery/homebrew-tap/help%20wanted.svg)](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20archived%3Afalse%20(org%3Ameshery%20OR%20org%3Aservice-mesh-performance%20OR%20org%3Aservice-mesh-patterns%20OR%20org%3Ameshery-extensions)%20label%3A%22help%20wanted%22)
 [![Website](https://img.shields.io/website/https/meshery.io/meshery.svg)](https://meshery.io/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/mesheryio.svg?label=Follow+Meshery&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
 [![Slack](https://img.shields.io/badge/Slack-@meshery.svg?logo=slack)](http://slack.meshery.io)
@@ -96,5 +96,5 @@ Find out more on the <a href="https://meshery.io/community">Meshery community</a
 ✔️ <em><strong>Discuss</strong></em> in a Meshery <a href="https://meshery.io/community#discussion-forums">Forum</a>.<br />
 </p>
 <p align="center">
-<i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Ameshery-extensions+org%3Ameshery+org%3Aservice-mesh-performance+org%3Aservice-mesh-patterns+label%3A%22help+wanted%22+">help-wanted label</a>.
+<i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen%20is%3Aissue%20archived%3Afalse%20(org%3Ameshery%20OR%20org%3Aservice-mesh-performance%20OR%20org%3Aservice-mesh-patterns%20OR%20org%3Ameshery-extensions)%20label%3A%22help%20wanted%22">help-wanted label</a>.
 </p>
