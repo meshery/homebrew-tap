@@ -93,7 +93,7 @@ Find out more on the <a href="https://meshery.io/community">Meshery community</a
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://meshery.io/calendar">community calendar</a>.<br />
 ✔️ <em><strong>Watch</strong></em> community <a href="https://www.youtube.com/@mesheryio?sub_confirmation=1">meeting recordings</a>.<br />
 ✔️ <em><strong>Access</strong></em> community resources by completing a community <a href="https://meshery.io/newcomers">Member Form</a>.<br />
-✔️ <em><strong>Discuss</strong></em> in a Meshery <a href="https://meshery.io/community#discussion-forums">Forum</a>.<br />
+✔️ <em><strong>Discuss</strong></em> in a Meshery <a href="https://discuss.meshery.io">Forum</a>.<br />
 </p>
 <p align="center">
 <i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen%20is%3Aissue%20archived%3Afalse%20(org%3Ameshery%20OR%20org%3Aservice-mesh-performance%20OR%20org%3Aservice-mesh-patterns%20OR%20org%3Ameshery-extensions)%20label%3A%22help%20wanted%22">help-wanted label</a>.
